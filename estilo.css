@@ -65,6 +65,11 @@ p.texto{
     text-align: justify;
 }
 
+ul.lista{
+    margin-left: 70px;
+    text-indent: 5px;
+}
+
 #logo {
     position: absolute; 
     left: 950px;
@@ -92,6 +97,7 @@ p.texto{
     font-style: bold;
     font-size: 1.5em; 
     text-align: center;
+    background: white;
 }
 
 #formAnuncio {
@@ -99,23 +105,15 @@ p.texto{
 }
 
 
-/* unvisited link */
 a:link {
     color: #112e84;
     text-decoration: none;
 }
 
-/* visited link */
-a:visited {
-    color: gold;
-}
-
-/* mouse over link */
 a:hover {
     color: green;
 }
 
-/* selected link */
 a:active {
     color: gold;
 }
