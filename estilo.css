@@ -1,0 +1,121 @@
+/* 
+    APS 01
+    Autor: Luiz Henrique Brum Viana - 2015201102
+*/
+
+body {
+    background-image: url('imagens/background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 140px;
+    text-align: left;
+    font-size: 4.0em;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    text-shadow: 3px 3px 3px black;
+    color: #112e84;
+}
+h2{
+   margin-left: 200px; 
+   text-align: left;
+   font-family: "Times New Roman", Times, serif;
+   color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px #112e84;
+}
+
+h3 {
+    margin-left: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #112e84;
+}
+
+p.entrar {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p.servicos{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    text-indent: 50px;
+    text-align: justify;
+    font-family: Verdana;
+    font-style: normal;
+    font-size: 1.0em;
+    font-weight: normal;
+}
+
+
+p.texto{
+    margin: 20px;
+    text-indent: 50px;
+    font-family: Verdana;
+    font-style: normal;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-align: justify;
+}
+
+#logo {
+    position: absolute; 
+    left: 950px;
+    top: 30px; 
+}
+
+#formEntrar {
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    position: absolute; 
+    left: 925px;
+    top: 348px;
+}
+
+#formMenu {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-family: Verdana;
+    font-style: bold;
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+#formAnuncio {
+    text-align: center;
+}
+
+
+/* unvisited link */
+a:link {
+    color: #112e84;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: gold;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: gold;
+}
